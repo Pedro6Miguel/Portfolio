@@ -23,8 +23,10 @@ const Header = () => {
             </nav>
             <div className={styles.main}>
                 <div className={styles.main_dev}>
-                    <h4>This is it</h4>
-                    <h1>Web Developer</h1>
+                    <div>
+                        <h4>This is it</h4>
+                        <h1>Web Developer</h1>
+                    </div>
                 </div>
                 <div className={styles.scroll}><ScrollIndicator /></div>
             </div>

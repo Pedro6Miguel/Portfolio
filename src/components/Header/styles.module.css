@@ -60,6 +60,14 @@
     height: 80vh;
 }
 
+.main_dev>div>h1 {
+    font-size: 100px;
+}
+
+.main_dev>div>h4 {
+    font-size: 24px;
+}
+
 .scroll {
     background-color: red;
     height: 20vh;
