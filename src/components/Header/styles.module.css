@@ -1,0 +1,49 @@
+.container {
+    background-color: rgb(170, 219, 255);
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-areas:
+        'NAVBAR MAIN LIGHT'
+}
+
+.nav {
+    height: 100vh;
+    background-color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    grid-area: NAVBAR;
+    border: 1px solid red;
+}
+
+.nav>div {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: green;
+}
+
+.first_div {
+    margin-top: 80px;
+}
+
+.last_div {
+    margin-bottom: 80px;
+}
+
+.nav_item {
+    transform: rotate(-90deg);
+}
+
+.main {
+    grid-area: MAIN;
+    border: 1px solid red;
+}
+
+.light {
+    grid-area: LIGHT;
+    border: 1px solid red;
+}
