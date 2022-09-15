@@ -6,6 +6,16 @@
         'NAVBAR MAIN LIGHT'
 }
 
+.main {
+    grid-area: MAIN;
+    border: 1px solid red;
+}
+
+.light {
+    grid-area: LIGHT;
+    border: 1px solid red;
+}
+
 .nav {
     height: 100vh;
     background-color: gray;
@@ -38,12 +48,30 @@
     transform: rotate(-90deg);
 }
 
-.main {
-    grid-area: MAIN;
-    border: 1px solid red;
+.main_dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 80vh;
+}
+
+.scroll {
+    background-color: red;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .light {
-    grid-area: LIGHT;
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.light>button {
+    margin-top: 80px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../Header/styles.module.css'
+import ScrollIndicator from '../../features/scroll'
 
 const Header = () => {
     return (
@@ -18,10 +19,14 @@ const Header = () => {
                 </div>
             </nav>
             <div className={styles.main}>
-                sadasd
+                <div className={styles.main_dev}>
+                    <h4>This is it</h4>
+                    <h1>Web Developer</h1>
+                </div>
+                <div className={styles.scroll}><ScrollIndicator /></div>
             </div>
             <div className={styles.light}>
-                asdsa
+                <button>sasdasd</button>
             </div>
         </div>
     )
