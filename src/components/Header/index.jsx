@@ -1,5 +1,8 @@
 import React from 'react'
 import styles from '../Header/styles.module.css'
+
+import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
+
 import ScrollIndicator from '../../features/scroll'
 
 const Header = () => {
@@ -13,9 +16,9 @@ const Header = () => {
                     <a className={styles.nav_item} href="">Logo</a>
                 </div>
                 <div className={styles.last_div}>
-                    <a className={styles.nav_item} href="">Logo</a>
-                    <a className={styles.nav_item} href="">Logo</a>
-                    <a className={styles.nav_item} href="">Logo</a>
+                    <a href=""><AiOutlineTwitter size={30} /></a>
+                    <a href=""><AiFillLinkedin size={30} /></a>
+                    <a href=""><AiFillGithub size={30} /></a>
                 </div>
             </nav>
             <div className={styles.main}>

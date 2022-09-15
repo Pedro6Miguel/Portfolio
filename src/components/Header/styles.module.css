@@ -32,16 +32,19 @@
 .nav>div {
     display: flex;
     flex-direction: column;
-    gap: 60px;
     background-color: green;
 }
 
 .first_div {
     margin-top: 80px;
+    gap: 60px;
 }
 
 .last_div {
     margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .nav_item {
@@ -62,7 +65,7 @@
     height: 20vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .light {
