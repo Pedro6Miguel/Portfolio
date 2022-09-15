@@ -1,0 +1,23 @@
+.container {
+    background-color: rgb(34, 34, 35);
+    padding: 60px 60px;
+
+    h6 {
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: #ffffffcc;
+    }
+
+    h2 {
+        font-size: 34px;
+        color: #ffffffcc;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        margin: 48px 0;
+    }
+}
