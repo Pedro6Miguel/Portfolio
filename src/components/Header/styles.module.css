@@ -1,24 +1,22 @@
 .container {
-    background-color: rgb(170, 219, 255);
+    width: 100vw;
+    background-color: rgb(53, 54, 55);
     display: grid;
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: .1fr 1fr .14fr;
     grid-template-areas:
         'NAVBAR MAIN LIGHT'
 }
 
 .main {
     grid-area: MAIN;
-    border: 1px solid red;
 }
 
 .light {
     grid-area: LIGHT;
-    border: 1px solid red;
 }
 
 .nav {
     height: 100vh;
-    background-color: gray;
 
     display: flex;
     align-items: center;
@@ -26,22 +24,20 @@
     flex-direction: column;
 
     grid-area: NAVBAR;
-    border: 1px solid red;
 }
 
 .nav>div {
     display: flex;
     flex-direction: column;
-    background-color: green;
 }
 
 .first_div {
-    margin-top: 80px;
+    margin-top: 86px;
     gap: 60px;
 }
 
 .last_div {
-    margin-bottom: 80px;
+    margin-bottom: 64px;
     display: flex;
     align-items: center;
     gap: 24px;
@@ -56,7 +52,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     height: 80vh;
 }
 
@@ -69,7 +64,6 @@
 }
 
 .scroll {
-    background-color: red;
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -84,5 +78,5 @@
 }
 
 .light>button {
-    margin-top: 80px;
+    margin-top: 70px;
 }
