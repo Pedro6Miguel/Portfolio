@@ -1,9 +1,15 @@
 import React from 'react'
 import styles from './styles.module.scss'
 
-function Project() {
+function Project(props) {
     return (
-        <a href="https://reactjs.org/docs/components-and-props.html" target="_blank"><div className={styles.project}><img src="https://i.postimg.cc/bNM0LKc6/creat.png" alt="" /></div></a>
+        <div className={styles.project}>
+            <img src={props.image} alt="" />
+            <div className={styles.hover}>
+                <a target="_blank" href="github.com"><div>VISIT WEBSITE</div></a>
+                <a target="_blank" href="github.com"><div>GITHUB</div></a>
+            </div>
+        </div>
     )
 }
 
