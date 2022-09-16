@@ -11,3 +11,14 @@ a {
   color: #ffffffcc;
   font-weight: 500;
 }
+
+a {
+  text-decoration: none;
+  color: #ffffffcc;
+  font-weight: 500;
+  transition: .4s;
+}
+
+a:hover {
+  color: #ffffff;
+}

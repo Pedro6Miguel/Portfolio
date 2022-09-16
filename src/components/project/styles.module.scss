@@ -22,17 +22,25 @@
         top: 0;
         left: 0;
         opacity: 0;
-        gap: 50px;
+        gap: 30px;
         transition: .6s;
 
         a {
-            color: #e3e3e3cc;
+            opacity: .8;
             transition: .4s;
-            font-weight: 800;
+            font-weight: 700;
             font-size: 30px;
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+            }
         }
 
         a:hover {
+            opacity: 1;
             color: rgb(255, 255, 255);
         }
     }
