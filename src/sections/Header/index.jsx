@@ -23,14 +23,18 @@ const Header = () => {
             <div className={styles.main}>
                 <div className={styles.main_dev}>
                     <div>
-                        <h4>This is it</h4>
-                        <h1>Web Developer</h1>
+                        <h6>Hi, my name is</h6>
+                        <h1>Pedro Miguel</h1>
+                        <h2>I build things for the web.</h2>
+                        <p>I'm a web developer who enjoys creating things that live on the internet. <br></br>I am currently looking for my first opportunity to put my learnings into real-world solutions.</p>
+                        <button>Projects</button>
                     </div>
                 </div>
                 <div className={styles.scroll}><ScrollIndicator /></div>
             </div>
             <div className={styles.light}>
-                <button>sasdasd</button>
+                <span></span>
+                <span></span>
             </div>
         </div>
     )
