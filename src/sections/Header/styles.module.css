@@ -83,18 +83,6 @@
     padding: 0 0 34px 0;
 }
 
-.main_dev button {
-    cursor: pointer;
-    padding: 16px 24px;
-    font-size: 16px;
-    font-weight: 300;
-    border-radius: 4px;
-    border: 2px solid var(--tertiary);
-    background-color: transparent;
-    color: var(--tertiary);
-    text-transform: uppercase;
-}
-
 .scroll {
     height: 20vh;
     display: flex;
