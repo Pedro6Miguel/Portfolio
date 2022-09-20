@@ -3,7 +3,7 @@ import styles from '../Header/styles.module.css'
 
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 
-import ScrollIndicator from '../../components/scroll'
+import ScrollIndicator from '../../components/ScrollAnimation'
 
 const Header = () => {
     return (

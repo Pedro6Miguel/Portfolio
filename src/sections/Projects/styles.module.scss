@@ -5,7 +5,13 @@
     grid-template-columns: 7% 1fr 7%;
 
     .content {
+        padding: 0 100px;
         display: flex;
         justify-content: center;
+        background-color: rgb(43, 205, 67);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1;
+        gap: 32px;
     }
 }
