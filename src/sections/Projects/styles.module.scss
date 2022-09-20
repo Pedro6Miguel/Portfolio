@@ -1,17 +1,32 @@
 .container {
+    background-color: var(--primary);
     width: 100%;
-    background-color: red;
     display: grid;
     grid-template-columns: 7% 1fr 7%;
 
     .content {
-        padding: 0 100px;
-        display: flex;
-        justify-content: center;
-        background-color: rgb(43, 205, 67);
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1;
-        gap: 32px;
+
+        h1 {
+            padding: 20px 100px 0px 100px;
+            text-transform: uppercase;
+            color: var(--tertiary);
+        }
+
+        h4 {
+            padding: 4px 100px 36px 100px;
+            font-weight: 300;
+            font-size: 18px;
+            color: var(--tertiary);
+        }
+
+        .showcase {
+            padding: 0 100px;
+            display: flex;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1;
+            gap: 32px;
+        }
     }
 }

@@ -1,16 +1,20 @@
 import React from 'react'
 import styles from './styles.module.scss'
 
-function ProjectShowcase() {
+import { AiFillGithub, AiOutlineGlobal } from "react-icons/ai";
+
+function ProjectShowcase(props) {
     return (
         <div className={styles.main}>
-            <p>Project</p>
+            <img src={props.img} alt="" />
             <div className={styles.overlay}>
                 <div className={styles.items}>
-                    <p>github</p>
+                    <a target="_blank" href={props.repository}><AiFillGithub size={30} /></a>
+                    <a target="_blank" href={props.website}><AiOutlineGlobal size={30} /></a>
                 </div>
                 <div className={styles.items_two}>
-                    <p>github</p>
+                    <h6>{props.name}</h6>
+                    <p>{props.technologies}</p>
                 </div>
             </div>
         </div>
