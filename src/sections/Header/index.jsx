@@ -15,9 +15,9 @@ const Header = () => {
                     <a className={styles.nav_item} href="">Contact</a>
                 </div>
                 <div className={styles.last_div}>
-                    <a href=""><AiOutlineTwitter size={30} /></a>
-                    <a href=""><AiFillLinkedin size={30} /></a>
-                    <a href=""><AiFillGithub size={30} /></a>
+                    <a href="" target="_blank"><AiOutlineTwitter size={30} /></a>
+                    <a href="https://www.linkedin.com/in/pedro-guerra-abb52a226/" target="_blank"><AiFillLinkedin size={30} /></a>
+                    <a href="https://github.com/Pedro6Miguel" target="_blank"><AiFillGithub size={30} /></a>
                 </div>
             </nav>
             <div className={styles.main}>
