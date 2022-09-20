@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --primary: #293241;
@@ -16,13 +16,10 @@ a {
   text-decoration: none;
   color: #ffffffcc;
   font-weight: 500;
-}
-
-a {
-  text-decoration: none;
-  color: #ffffffcc;
-  font-weight: 500;
   transition: .4s;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
 
 a:hover {

@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 7% 1fr 7%;
+
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+}
