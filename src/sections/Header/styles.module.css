@@ -1,4 +1,5 @@
 .container {
+    height: 80vh;
     background-color: var(--primary);
     display: grid;
     grid-template-columns: 7% 1fr 7%;
@@ -48,6 +49,10 @@
     transform: rotate(-90deg);
 }
 
+.main {
+    height: 80vh;
+}
+
 .main_dev {
     display: flex;
     flex-direction: column;
@@ -91,7 +96,6 @@
 }
 
 .scroll {
-    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -109,4 +113,10 @@
     width: 30px;
     height: 2px;
     background-color: var(--tertiary);
+}
+
+@media only screen and (max-height: 930px) {
+    .scroll {
+        display: none;
+    }
 }

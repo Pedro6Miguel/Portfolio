@@ -17,7 +17,7 @@ function Projects() {
                         website="https://onedio-studio.vercel.app/"
                         img="https://media.discordapp.net/attachments/905837522813337613/1021788071454322688/unknown.png?width=819&height=568"
                     />
-                    <ProjectShowcase img="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" />
+                    <ProjectShowcase img="https://media.discordapp.net/attachments/905837522813337613/1021829996534317157/unknown.png?width=856&height=630" />
                     <ProjectShowcase />
                     <ProjectShowcase />
                     <ProjectShowcase />
