@@ -56,9 +56,9 @@ button::before {
   z-index: -1;
   background-color: var(--tertiary);
   transition: .8s;
-  border-radius: 0 0 50% 50%;
+  border-radius: 0 0 42% 70%;
 }
 
 button:hover::before {
-  height: 180%;
+  height: 480%;
 }
