@@ -7,7 +7,7 @@ function Projects() {
         <div className={styles.container}>
             <div className={styles.nav}></div>
             <div className={styles.content}>
-                <h1>Projects</h1>
+                <h1><span>01.</span> Projects</h1>
                 <h4>Some of the things I've done for fun</h4>
                 <div className={styles.showcase}>
                     <ProjectShowcase
