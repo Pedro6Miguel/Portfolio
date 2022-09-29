@@ -1,5 +1,5 @@
 .container {
-    background-color: lightcoral;
+    background-color: var(--primary);
     display: grid;
     grid-template-columns: 7% 1fr 7%;
     grid-template-areas:
