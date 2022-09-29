@@ -1,6 +1,5 @@
 .container {
-    height: 80vh;
-    background-color: var(--primary);
+    background-color: lightcoral;
     display: grid;
     grid-template-columns: 7% 1fr 7%;
     grid-template-areas:
@@ -49,10 +48,6 @@
     transform: rotate(-90deg);
 }
 
-.main {
-    height: 80vh;
-}
-
 .main_dev {
     display: flex;
     flex-direction: column;
@@ -92,7 +87,7 @@
 .main_dev p {
     font-weight: 300;
     font-size: 18px;
-    padding: 0 0 54px 0;
+    padding: 0;
 }
 
 .scroll {
