@@ -11,7 +11,6 @@ const Header = () => {
             <nav className={styles.nav}>
                 <div className={styles.first_div}>
                     <a className={styles.nav_item} href="">Projects</a>
-                    <a className={styles.nav_item} href="">About</a>
                     <a className={styles.nav_item} href="">Contact</a>
                 </div>
                 <div className={styles.last_div}>

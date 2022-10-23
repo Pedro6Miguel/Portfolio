@@ -46,6 +46,47 @@
 
 .nav_item {
     transform: rotate(-90deg);
+    position: relative;
+}
+
+.nav_item:nth-child(1):after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: 50%;
+    right: -4%;
+    transition: .3s;
+}
+
+.nav_item:nth-child(1):hover:after {
+    content: "";
+    position: absolute;
+    background-color: var(--secondary);
+    height: 3px;
+    width: 110%;
+    bottom: 50%;
+    right: -4%;
+}
+
+.nav_item:nth-child(2):after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: 50%;
+    right: 0;
+    transition: .3s;
+}
+
+.nav_item:hover:after {
+    content: "";
+    position: absolute;
+    background-color: var(--secondary);
+    height: 3px;
+    width: 100%;
+    bottom: 50%;
+    right: 6%;
 }
 
 .main_dev {
