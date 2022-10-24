@@ -37,3 +37,47 @@
         }
     }
 }
+
+@media only screen and (max-width: 1340px) {
+
+    .content {
+        h1 {
+            padding: 20px 30px 0px 30px !important;
+        }
+
+        .showcase {
+            grid-template-columns: 1fr 1fr !important;
+            grid-template-rows: 1;
+            padding: 0 30px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .container {
+        grid-template-columns: 1fr 50px !important;
+
+        h1 {
+            padding: 20px 30px 0px 40px !important;
+        }
+
+        .showcase {
+            grid-template-columns: 1fr 1fr !important;
+            grid-template-rows: 1;
+            padding: 0 0 0 40px !important;
+        }
+
+        .nav {
+            display: none !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .container {
+        .showcase {
+            grid-template-columns: 1fr !important;
+            grid-template-rows: 1;
+        }
+    }
+}
