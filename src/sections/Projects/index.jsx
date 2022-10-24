@@ -18,10 +18,10 @@ function Projects() {
                         img="https://media.discordapp.net/attachments/905837522813337613/1021788071454322688/unknown.png?width=819&height=568"
                     />
                     <ProjectShowcase
-                        name=""
-                        technologies=""
-                        repository=""
-                        website=""
+                        name="Owlearn"
+                        technologies="NextJS"
+                        repository="https://github.com/Pedro6Miguel/Repository"
+                        website="https://repositoryy.vercel.app/"
                         img="https://media.discordapp.net/attachments/905837522813337613/1021829996534317157/unknown.png?width=856&height=630"
                     />
                     <ProjectShowcase
