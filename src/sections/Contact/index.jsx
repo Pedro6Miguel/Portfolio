@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './styles.module.scss'
-import { IoMdMail } from "react-icons/io";
 
 function Contact() {
+
     return (
         <div className={styles.container} id="contact">
             <div className={styles.nav}></div>
@@ -10,11 +10,12 @@ function Contact() {
                 <h1><span>02.</span> Contact</h1>
                 <h4>Interested in working together? Fill in the form</h4>
                 <div className={styles.form}>
-                    <form>
-                        <input placeholder='Name' />
-                        <input placeholder='Email' />
-                        <textarea placeholder='Message' />
-                        <button>Send</button>
+                    <form action="https://formsubmit.co/pedro.miguel.16@hotmail.com" method="POST">
+                        <input placeholder='Name' name='name' />
+                        <input placeholder='Email' name='email' />
+                        <textarea placeholder='Message' name='message' />
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5173/"></input>
+                        <button type='submit'>Send</button>
                     </form>
                     <div>
                         <h2>Dont feel like talking right now?</h2>
@@ -22,7 +23,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
