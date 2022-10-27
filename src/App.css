@@ -13,6 +13,46 @@
   scroll-behavior: smooth;
 }
 
+#teste {
+  position: absolute;
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  right: 0;
+  top: 100px;
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(148, 187, 233, 0) 100%);
+  opacity: .08;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    right: 0px;
+    top: 0px;
+  }
+
+  25% {
+    right: 420px;
+    top: 60px;
+    background-color: #20252f;
+  }
+
+  50% {
+    right: 550px;
+    top: 10px;
+    background-color: #ffffff;
+  }
+
+  100% {
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(148, 187, 233, 0) 100%);
+    right: 0px;
+    top: 100px;
+  }
+}
+
 body {
   cursor: url('./assets/cursor.svg'), auto;
 }
