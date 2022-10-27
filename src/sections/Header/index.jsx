@@ -11,7 +11,7 @@ const Header = () => {
             <nav className={styles.nav}>
                 <div className={styles.first_div}>
                     <a className={styles.nav_item} href="">Projects</a>
-                    <a className={styles.nav_item} href="">Contact</a>
+                    <a className={styles.nav_item} href="#contact">Contact</a>
                 </div>
                 <div className={styles.last_div}>
                     <a href="" target="_blank"><AiOutlineTwitter size={30} /></a>

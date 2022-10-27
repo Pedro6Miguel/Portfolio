@@ -1,0 +1,68 @@
+.container {
+    background-color: var(--primary);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7% 1fr 7%;
+    padding-top: 70px;
+
+    .contact {
+        margin: 0 100px;
+
+        h1 {
+            padding: 20px 0 0 0;
+            text-transform: uppercase;
+            color: var(--tertiary);
+
+            span {
+                color: var(--secondary);
+                font-weight: 300;
+                font-size: 22px;
+            }
+        }
+
+        h4 {
+            padding: 4px 0 36px 0;
+            font-weight: 300;
+            font-size: 18px;
+            color: var(--tertiary);
+        }
+
+        .form {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 3fr 1fr;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                input,
+                textarea {
+                    background-color: transparent;
+                    height: 50px;
+                    padding-left: 10px;
+                    font-size: 16px;
+                    border: 1px solid rgb(230, 230, 230);
+                    outline: none;
+                    color: rgb(230, 230, 230);
+                }
+
+                input:focus,
+                textarea:focus {
+                    border: 1px solid var(--secondary);
+                }
+
+                textarea {
+                    padding-top: 10px;
+                    min-height: 300px;
+                    resize: none;
+                }
+            }
+
+            div {
+                background-color: red;
+            }
+        }
+    }
+}
