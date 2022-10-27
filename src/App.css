@@ -13,6 +13,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  cursor: url('./assets/cursor.svg'), auto;
+}
+
 html::-webkit-scrollbar {
   width: .4vw;
 }
