@@ -15,7 +15,7 @@ const Header = () => {
                         initial={{ y: -500, opacity: 0, rotate: -90 }}
                         animate={{ y: 0, opacity: 1, rotate: -90 }}
                         transition={{ ease: "linear", delay: 1, duration: 0.6 }}
-                        className={styles.nav_item} href=""
+                        className={styles.nav_item} href="#projects"
                     >Projects
                     </motion.a>
                     <motion.a

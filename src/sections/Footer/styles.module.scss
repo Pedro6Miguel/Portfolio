@@ -17,7 +17,7 @@
         .border {
             width: 90%;
             height: 1px;
-            background: radial-gradient(circle, #fff 0%, var(--primary) 100%, var(--primary) 100%);
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.142) 0%, var(--primary) 100%, var(--primary) 100%);
         }
 
         :nth-child(2) {

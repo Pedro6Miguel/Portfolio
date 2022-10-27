@@ -4,7 +4,7 @@ import ProjectShowcase from '../../components/ProjectShowcase'
 
 function Projects() {
     return (
-        <div className={styles.container}>
+        <div id='projects' className={styles.container}>
             <div className={styles.nav}></div>
             <div className={styles.content}>
                 <h1><span>01.</span> Projects</h1>
