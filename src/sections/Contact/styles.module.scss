@@ -48,6 +48,11 @@
                     color: rgb(230, 230, 230);
                 }
 
+                input::placeholder,
+                textarea::placeholder {
+                    color: rgb(230, 230, 230);
+                }
+
                 input:focus,
                 textarea:focus {
                     border: 1px solid var(--secondary);
@@ -61,7 +66,21 @@
             }
 
             div {
-                background-color: red;
+                border-top: 26px solid var(--secondary);
+                background-color: #222a37;
+
+                h2 {
+                    color: var(--tertiary);
+                    text-align: justify;
+                    margin: 22px 20px 0 20px;
+                }
+
+                p {
+                    margin: 20px 20px 0 20px;
+                    color: rgba(255, 255, 255, 0.976);
+                    text-align: justify;
+                    font-weight: 200;
+                }
             }
         }
     }

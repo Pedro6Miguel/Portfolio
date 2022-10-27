@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './styles.module.scss'
+import { IoMdMail } from "react-icons/io";
 
 function Contact() {
     return (
@@ -16,7 +17,8 @@ function Contact() {
                         <button>Send</button>
                     </form>
                     <div>
-                        This is blank space
+                        <h2>Dont feel like talking right now?</h2>
+                        <p>That's okay. Whenever you feel like it, you can contact me.</p>
                     </div>
                 </div>
             </div>

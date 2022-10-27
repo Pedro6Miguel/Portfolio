@@ -84,3 +84,7 @@ button::before {
 button:hover::before {
   height: 480%;
 }
+
+li {
+  list-style: none;
+}
