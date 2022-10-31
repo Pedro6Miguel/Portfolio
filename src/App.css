@@ -6,6 +6,17 @@
   --tertiary: #e0fbfc;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: #ee6c4d;
+  background: #e0fbfc;
+}
+
+::selection {
+  color: #ee6c4d;
+  background: #e0fbfc;
+}
+
 * {
   margin: 0;
   padding: 0;

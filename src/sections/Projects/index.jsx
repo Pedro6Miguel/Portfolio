@@ -1,12 +1,15 @@
 import React from 'react'
 import styles from './styles.module.scss'
+import { motion } from "framer-motion"
 import ProjectShowcase from '../../components/ProjectShowcase'
 
 function Projects() {
     return (
         <div id='projects' className={styles.container}>
             <div className={styles.nav}></div>
-            <div className={styles.content}>
+            <motion.div initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ ease: "linear", delay: 2.6, duration: 0.6 }} className={styles.content}>
                 <h1><span>01.</span> Projects</h1>
                 <h4>Some of the things I've done for fun</h4>
                 <div className={styles.showcase}>
@@ -46,7 +49,7 @@ function Projects() {
                         img="https://media.discordapp.net/attachments/905837522813337613/1031671953184002158/unknown.png?width=1128&height=591"
                     />
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
