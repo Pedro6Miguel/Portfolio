@@ -64,6 +64,23 @@
   }
 }
 
+#info {
+  display: none;
+}
+
+#open:nth-child(1) {
+  margin-top: 5px;
+  transform: rotate(45deg);
+  position: relative;
+  top: 6px;
+}
+
+#open:nth-child(2) {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -5.3px;
+}
+
 body {
   cursor: url('./assets/cursor.svg'), auto;
 }

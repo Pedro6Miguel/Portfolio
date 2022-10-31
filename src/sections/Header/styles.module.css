@@ -146,9 +146,11 @@
     flex-direction: column;
     gap: 8px;
     margin-top: 56px;
+    position: relative;
 }
 
-.light>span {
+.light>.button>span {
+    margin: 10px 0;
     width: 30px;
     height: 2px;
     background-color: var(--tertiary);
@@ -208,9 +210,37 @@
         padding: 0 30px 0 40px;
     }
 
-    .light>span {
+    .light>.button>span {
         display: block;
         margin-right: 70px;
+    }
+
+    .light>.info {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background-color: hsla(220, 19%, 15%, 0.985);
+        top: 40px;
+        right: 0;
+        margin: 0 37px 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 1;
+    }
+
+    .info>.links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .info>.socials {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: flex-end;
     }
 }
 

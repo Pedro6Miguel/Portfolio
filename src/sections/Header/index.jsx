@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react';
 import { motion } from "framer-motion"
 import styles from '../Header/styles.module.css'
 
@@ -7,6 +7,8 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import ScrollIndicator from '../../components/ScrollAnimation'
 
 const Header = () => {
+    const [isShowLinks, setShowLinks] = useState(true);
+
     return (
         <div className={styles.container}>
             <nav className={styles.nav}>
@@ -140,10 +142,26 @@ const Header = () => {
                 </div>
                 <div className={styles.scroll}><ScrollIndicator /></div>
             </div>
-            <div className={styles.light}>
-                <span></span>
-                <span></span>
-            </div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ ease: "linear", delay: 2, duration: 0.6 }} className={styles.light}>
+                <div onClick={() => setShowLinks(!isShowLinks)} className={styles.button}>
+                    <span id={isShowLinks ? "" : "open"}></span>
+                    <span id={isShowLinks ? "" : "open"}></span>
+                </div>
+                <div className={styles.info} id={isShowLinks ? "info" : ""}>
+                    <div className={styles.links}>
+                        <a href="#projects"><li>Projects</li></a>
+                        <a href="#contact"><li>Contact</li></a>
+                    </div>
+                    <div className={styles.socials}>
+                        <li><AiFillGithub size={40} color="#fff" /></li>
+                        <li><AiFillLinkedin size={40} color="#fff" /></li>
+                        <li><AiOutlineTwitter size={40} color="#fff" /></li>
+                    </div>
+                </div>
+            </motion.div>
         </div>
     )
 }
