@@ -38,6 +38,7 @@
 
 .main_dev {
     position: relative;
+    margin: 100px 0;
 }
 
 .last_div {
@@ -145,8 +146,9 @@
     align-items: center;
     flex-direction: column;
     gap: 8px;
-    margin-top: 56px;
-    position: relative;
+    margin: 50px 0 0 0;
+    position: absolute;
+    right: 0;
 }
 
 .light>.button>span {
@@ -212,13 +214,13 @@
 
     .light>.button>span {
         display: block;
-        margin-right: 70px;
+        margin-right: 50px;
     }
 
     .light>.info {
         position: absolute;
-        width: 400px;
-        height: 400px;
+        width: 250px;
+        height: 300px;
         background-color: hsla(220, 19%, 15%, 0.985);
         top: 40px;
         right: 0;

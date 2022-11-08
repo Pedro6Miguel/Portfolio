@@ -17,7 +17,7 @@ function Contact() {
                         <input type="hidden" name="_next" value="https://pedromigueldev.vercel.app/"></input>
                         <button type='submit'>Send</button>
                     </form>
-                    <div>
+                    <div className={styles.border}>
                         <h2>Dont feel like talking right now?</h2>
                         <p>That's okay. Whenever you feel like it, you can contact me.</p>
                     </div>

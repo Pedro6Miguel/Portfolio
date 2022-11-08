@@ -71,7 +71,6 @@
 
                 h2 {
                     color: var(--tertiary);
-                    text-align: justify;
                     margin: 22px 20px 0 20px;
                 }
 
@@ -83,5 +82,27 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .contact {
+        margin: 0 30px !important;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .border {
+        display: none;
+    }
+
+    .form {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .contact {
+        margin: 0 10px !important;
     }
 }
