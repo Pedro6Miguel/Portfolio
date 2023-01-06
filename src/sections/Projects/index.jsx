@@ -14,6 +14,13 @@ function Projects() {
                 <h4>Some of the things I've done for fun</h4>
                 <div className={styles.showcase}>
                     <ProjectShowcase
+                        name="Blizzard"
+                        technologies="ReactJS, TypeScript, Tailwind"
+                        repository="https://github.com/Pedro6Miguel/BlizzardChallenge"
+                        website="https://blizzard-challenge.vercel.app/"
+                        img="https://media.discordapp.net/attachments/905837522813337613/1060730996137398362/image.png?width=1256&height=609"
+                    />
+                    <ProjectShowcase
                         name="Onedio."
                         technologies="ReactJS"
                         repository="https://github.com/Pedro6Miguel/Onedio.-Studio"
